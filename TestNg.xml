@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Test on DemoQA">
+    <listeners>
+        <listener class-name="com.aventstack.extentreports.testng.listener.ExtentITestListenerClassAdapter"></listener>
+    </listeners>
+
+    <test name="Regression Suit #1">
+
+
+        <classes>
+            <class name="YourLogoTest.YourLogoTest"/>
+        </classes>
+    </test>
+</suite>
